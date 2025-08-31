@@ -4,7 +4,7 @@ Project name: SoC Based Emulation of Quantum Circuits
 
 Link to YouTube Video(s): https://youtu.be/lxIeiJs4sNs
 
-Link to project repository: https://github.com/finlaytharris/SoCEmulationofQuantumCircuits
+Link to project repository: https://github.com/finlaytharris/SoC_Based_Emulation_of_Quantum_Circuits
 
 University name: University of Strathclyde
 
