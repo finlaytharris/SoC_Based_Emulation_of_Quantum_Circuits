@@ -33,40 +33,18 @@ This contribution demonstrates how **SoC-based emulation** bridges the gap betwe
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure  
 
 - /notebooks — Jupyter notebooks for gate + QFT demos  
-- /hardware — Model Composer + Vivado project files  
+- /hardware — Model Composer project files  
 - /bitstreams — Prebuilt FPGA bitstreams for Ultra96-V2  
-- /docs — Report, diagrams, and screenshots  
+- /Submission - Contains report, video and submission files
+- /PYNQ Folders - Folders containing required files for each notebook to run correctly on PYNQ. 
 - README.md — This file  
 - LICENSE — Open-source license  
 
----
 
-## How to Build & Run  
-
-### Quickstart (Prebuilt Bitstream)  
-
-- Clone this repo on the Ultra96-V2  
-- Load the bitstream from /bitstreams onto the PL  
-- Start Jupyter Lab  
-- Open notebooks:  
-  - notebooks/gate_demo.ipynb → test single-qubit & two-qubit gates  
-  - notebooks/qft_demo.ipynb → run a 3-qubit QFT demo  
-- For GUI-only interaction (no notebook editing), launch with Voila:  
-  - voila notebooks/qft_demo.ipynb  
-
-### Build from Source  
-
-- Open /hardware in Model Composer  
-- Generate HDL and export to Vivado  
-- Build the bitstream and save in /bitstreams  
-- Deploy on Ultra96-V2 via PYNQ  
-
----
-
-## 📊 Results  
+## Results  
 
 - Pauli gates: errors ≤ 1e-10, latency ~2 ms  
 - Hadamard: superpositions correct, errors up to ~45% (fixed-point limits)  
@@ -81,13 +59,7 @@ This contribution demonstrates how **SoC-based emulation** bridges the gap betwe
 - Uses AXI4-Stream & AXI4-Lite interfaces → easy integration into other SoC/FPGA projects  
 - Modular gate IP cores allow scaling to larger circuits  
 - Designed for educational accessibility while supporting research prototyping  
-
----
-
-## 🔗 Links  
-
-- Full Report (PDF)  
-- Demo Video  
+ 
 
 ---
 
